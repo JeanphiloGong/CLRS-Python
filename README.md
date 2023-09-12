@@ -64,9 +64,11 @@ pytest tests/
 Contributions to enhance or expand this repository are welcome! Please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for guidelines.
 
 ## References
+![image](https://github.com/JeanphiloGong/CLRS-Python/assets/123850343/95da12c3-47e8-441a-99a3-bb6004f2fba4)
+
 - Original Book: [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
 
 ## License
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for more details.
+This project is licensed under the (GNU General Public License, GPLv3) License. See [LICENSE](./LICENSE) for more details.
 
 ---
