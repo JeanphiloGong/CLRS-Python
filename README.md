@@ -48,7 +48,7 @@ This repository is dedicated to providing Python implementations of the algorith
 ## Usage
 1. Clone the repository:
    ```
-   git clone https://github.com/YourGitHubUsername/CLRS-Python.git
+   git clone https://github.com/CLRS-Python/CLRS-Python.git
    ```
 2. Navigate to the desired chapter and open the relevant Python file.
 3. Execute or integrate the code as needed in your Python projects.
