@@ -1,5 +1,6 @@
 \documentclass{book}
 \usepackage{amsmath}  % for mathematical symbols and environments
+\usepackage{listings}
 
 \title{Introduction to Algorithms Notes}
 \author{Jean philo Gong}
@@ -38,6 +39,40 @@
 
 \chapter{Getting Started}
 % content for this chapter
+\section{Insertion sort}
+    \begin{align*}
+        &\text{Input: A sequence of } n \text{ numbers } (a_1, a_2, \ldots, a_n). \\
+        &\text{Output: A permutation (reordering) } (a_1', a_2', \ldots, a_n') \\
+        &\quad \text{such that } a_1' \leq a_2' \leq \ldots \leq a_n'.
+    \end{align*}
+\section*{Methods}
+\subsection{Insertion Sort Algorithm}
+
+The insertion sort algorithm can be broken down into the following steps:
+
+\begin{enumerate}
+    \item Define a function to perform the insertion sort operation.
+    \item Loop starts from the second element.
+    \item Store the current element as the key.
+    \item Initialize \( j \) as the element just before \( i \).
+    \item Move elements that are greater than the key to one position ahead of their current position.
+    \item Place the key in its correct position.
+\end{enumerate}
+
+\subsection{Code Implementation}
+
+The Python code for the insertion sort algorithm is given below:
+
+\begin{lstlisting}[language=Python]
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+\end{lstlisting}
 
 \chapter{Growth of Functions}
 % content for this chapter
